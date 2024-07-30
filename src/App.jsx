@@ -1,12 +1,13 @@
 import React from "react";
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
+import LandingPage from "./components/LandingPage.jsx";
+import Hero_funct from "./components/Hero_funct.jsx";
 
 const App = () => {
   return (
     <>
-      <NavBar />
-      <div className="bg-black w-full h-screen"></div>
-      
+    <LandingPage />
+      {/* <Hero_funct /> */}
     </>
   );
 };

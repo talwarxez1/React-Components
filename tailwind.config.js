@@ -6,6 +6,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
+        
+          'playwrite': ["Playwrite AT", 'cursive'],
+        
       },
       keyframes: {
         animation: {

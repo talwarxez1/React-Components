@@ -1,9 +1,9 @@
-// ./src/components/AnimatedText.js
+// ./src/components/TwoTextAnimated.js
 
 import React, { useState } from 'react';
 import '../index.css';
 
-const AnimatedText = ({ text1, text2 }) => {
+const TwoTextAnimated = ({ text1}) => {
   const [hovered, setHovered] = useState(false);
 
   return (
@@ -16,12 +16,12 @@ const AnimatedText = ({ text1, text2 }) => {
         <div
           className={`transition-transform duration-500 ease-in-out ${hovered ? '-translate-y-8' : ''}`}
         >
-          <div className="h-8 flex items-center">{text1}</div>
-          <div className="h-8 flex items-center text-red-500">{text1}</div>
+          <div className="h-8 flex items-center  text-white">{text1}</div>
+          <div className="h-8 flex items-center  text-[#ea7515]">{text1}</div>
         </div>
       </div>
     </div>
   );
 };
 
-export default AnimatedText;
+export default TwoTextAnimated;
