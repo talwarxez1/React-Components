@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import '../index.css';
 
 
-
 const SixTextAnimated = ({ texts }) => {
   const [index, setIndex] = useState(0);
 
@@ -23,7 +22,7 @@ const SixTextAnimated = ({ texts }) => {
       >
         {texts.map((text, i) => (
           <div key={i} className='h-8 ml-2 flex items-center justify-center text-gray-400'> 
-            <span className="text-xl h-8 ml-12 glow-text text-center">{text.text}</span> {/* Apply a smaller font size */}
+            <span className="text-2xl h-8 ml-12 glow-text text-center">{text.text}</span> {/* Apply a smaller font size */}
           </div>
         ))}
       </div>

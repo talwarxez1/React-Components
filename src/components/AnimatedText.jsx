@@ -16,8 +16,8 @@ const TwoTextAnimated = ({ text1}) => {
         <div
           className={`transition-transform duration-500 ease-in-out ${hovered ? '-translate-y-8' : ''}`}
         >
-          <div className="h-8 flex items-center  text-white">{text1}</div>
-          <div className="h-8 flex items-center  text-[#ea7515]">{text1}</div>
+          <div className="h-8 flex items-center  text-black">{text1}</div>
+          <div className="h-8 flex items-center  text-[#e46600]">{text1}</div>
         </div>
       </div>
     </div>
